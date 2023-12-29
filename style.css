@@ -27,4 +27,13 @@
 .container option {
   background-color: #000;
   color: #fff;
+  margin-left: 20px;
+}
+
+.hero {
+  font-family: "Bebas Neue", sans-serif;
+}
+.hero .btn1 {
+  background-color: #FFB548;
+  padding: 2% 4%;
 }/*# sourceMappingURL=style.css.map */

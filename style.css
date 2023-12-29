@@ -6,6 +6,10 @@
 
 .container {
   background-image: url("./background-game.png");
+  height: 960px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /*? START HEADER */
 }
 .container header {
   display: flex;
@@ -30,10 +34,32 @@
   margin-left: 20px;
 }
 
-.hero {
+/*? END HEADER */
+/*? START HERO */
+.hero-text {
   font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  padding: 200px;
+  color: #fff;
 }
-.hero .btn1 {
+.hero-text h1 {
+  font-size: 55px;
+}
+.hero-text .btn1 {
   background-color: #FFB548;
-  padding: 2% 4%;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 7px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 40px;
+}
+
+p {
+  color: #fff;
+  text-align: center;
+  margin-top: 240px;
+}
+p i {
+  color: transparent;
+  border: #fff;
 }/*# sourceMappingURL=style.css.map */

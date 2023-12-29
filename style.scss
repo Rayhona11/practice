@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url("./background-game.png");
+   
+
+    header{
+      display: flex;
+      align-items: center;
+      padding:10px 6%;  
+     justify-content: space-between;
+      ul{
+        list-style: none;
+         color: #fff;
+         display: flex;
+         gap: 50px;
+         font-family: 'Open Sans', sans-serif;
+      }
+      i{
+        font-size:40px;
+        color:gold;
+      }
+      
+    }
+     option{
+        background-color: #000;
+        color:#fff;
+     }
+}

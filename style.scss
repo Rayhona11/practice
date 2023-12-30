@@ -80,8 +80,14 @@ p{
   color: #fff;
   box-sizing: border-box;
   padding:6%;
-  h1{
-    font-size:70px;
+
+  .content-left1{
+    background-color: #FFB548;
+    max-width: 450px;
     font-family: 'Bebas Neue', sans-serif;
+    h1{
+      font-size:70px;
+      
+    } 
   }
  }

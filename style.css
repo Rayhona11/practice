@@ -73,7 +73,11 @@ p i {
   box-sizing: border-box;
   padding: 6%;
 }
-.content h1 {
-  font-size: 70px;
+.content .content-left1 {
+  background-color: #FFB548;
+  max-width: 450px;
   font-family: "Bebas Neue", sans-serif;
+}
+.content .content-left1 h1 {
+  font-size: 70px;
 }/*# sourceMappingURL=style.css.map */

@@ -6,8 +6,9 @@
 
 .container{
     background-image: url("./background-game.png");
-    height:960px;
+    /*height:960px;*/
    object-fit: cover;
+
    /*? START HEADER */
 
     header{
@@ -36,8 +37,8 @@
         margin-left: 20px;
      }
 }
-
      /*? END HEADER */
+
 
      /*? START HERO */
 
@@ -66,6 +67,21 @@ p{
   margin-top:240px;
   i{
     color: transparent;
-    border: #fff;
+    border:none;
   }
 }
+       /*?  END HERO  */
+
+
+       /* START CONTENT */
+ .content{
+  background-image: url("./background_hero.png");
+  /*height: 960px; */
+  color: #fff;
+  box-sizing: border-box;
+  padding:6%;
+  h1{
+    font-size:70px;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+ }

@@ -6,7 +6,7 @@
 
 .container {
   background-image: url("./background-game.png");
-  /*height:960px;*/
+  height: 960px;
   -o-object-fit: cover;
      object-fit: cover;
   /*? START HEADER */
@@ -14,7 +14,8 @@
 .container header {
   display: flex;
   align-items: center;
-  padding: 10px 6%;
+  padding: 15px 5%;
+  /*  gap: 100px;*/
   justify-content: space-between;
 }
 .container header ul {
@@ -28,7 +29,10 @@
   font-size: 40px;
   color: gold;
 }
-.container option {
+.container .select {
+  display: flex;
+}
+.container .select option {
   background-color: #000;
   color: #fff;
   margin-left: 20px;
@@ -39,7 +43,7 @@
 .hero-text {
   font-family: "Bebas Neue", sans-serif;
   text-align: center;
-  padding: 200px;
+  margin-top: 200px;
   color: #fff;
 }
 .hero-text h1 {
@@ -71,13 +75,16 @@ p i {
   /*height: 960px; */
   color: #fff;
   box-sizing: border-box;
-  padding: 6%;
+  padding: 5%;
 }
 .content .content-left1 {
-  background-color: #FFB548;
   max-width: 450px;
   font-family: "Bebas Neue", sans-serif;
 }
 .content .content-left1 h1 {
   font-size: 70px;
+}
+.content .content-left2 {
+  max-width: 350px;
+  background-color: aqua;
 }/*# sourceMappingURL=style.css.map */

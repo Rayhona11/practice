@@ -6,17 +6,18 @@
 
 .container{
     background-image: url("./background-game.png");
-    /*height:960px;*/
-   object-fit: cover;
+    height:960px;
+    object-fit: cover;
 
    /*? START HEADER */
 
     header{
       display: flex;
       align-items: center;
-      padding:10px 6%;  
-     justify-content: space-between;
-     
+      padding:15px 5%;  
+    /*  gap: 100px;*/
+     justify-content: space-between; 
+
       ul{
          list-style: none;
          color: #fff;
@@ -31,12 +32,19 @@
       }
       
     }
+    .select{
+     display: flex;
+
+    
      option{
         background-color: #000;
         color:#fff;
         margin-left: 20px;
-     }
+      
+      }
+    }
 }
+
      /*? END HEADER */
 
 
@@ -45,7 +53,7 @@
 .hero-text{
   font-family: 'Bebas Neue', sans-serif;
   text-align: center;
-  padding:200px;
+   margin-top:200px;
   color: #fff;
 
   h1{
@@ -79,15 +87,18 @@ p{
   /*height: 960px; */
   color: #fff;
   box-sizing: border-box;
-  padding:6%;
+  padding:5%;
 
   .content-left1{
-    background-color: #FFB548;
+  
     max-width: 450px;
     font-family: 'Bebas Neue', sans-serif;
     h1{
       font-size:70px;
-      
     } 
+  }
+  .content-left2{
+    max-width:350px;
+    background-color: aqua;
   }
  }

@@ -84,7 +84,13 @@ p i {
 .content .content-left1 h1 {
   font-size: 70px;
 }
+.content .content-left1 h4::before {
+  content: "";
+  background-color: red;
+}
 .content .content-left2 {
-  max-width: 350px;
-  background-color: aqua;
+  max-width: 360px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 100px;
 }/*# sourceMappingURL=style.css.map */

@@ -66,7 +66,7 @@ section {
   font-family: "Open Sans", sans-serif;
   display: flex;
   gap: 40px;
-  padding: 100px;
+  padding: 5% 6%;
 }
 section .section-left {
   color: #fff;
@@ -78,4 +78,49 @@ section .section-left h1 {
 section .section-left p {
   max-width: 300px;
   margin: 100px 200px;
+}
+
+/*?  END  SECTION  */
+/* START  MAIN */
+.main {
+  background-image: url("./Group 2.jpg");
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(3, 1fr);
+  color: #fff;
+}
+.grid .grid1 {
+  border: #fff solid;
+  padding: 4%;
+  align-items: center;
+}
+.grid .grid2 {
+  border: #fff solid;
+  padding: 4%;
+  align-items: center;
+}
+.grid .grid3 {
+  border: #fff solid;
+  padding: 4%;
+  align-items: center;
+}
+.grid .grid4 {
+  border: #fff solid;
+  padding: 4%;
+  align-items: center;
+}
+.grid .grid5 {
+  border: #fff solid;
+  padding: 4%;
+  grid-column: 1/3;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -102,47 +102,69 @@
 
        /* START  MAIN */
 
-         .main{
+        .main{
           background-image:url("./Group\ 2.jpg");
           color: #fff;
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
+          font-family: 'Bebas Neue', sans-serif;
           object-fit: cover;
-         }
-
-       .grid{
-          display: grid;
-          grid-template-columns:repeat(2,300px);
-          grid-template-rows:repeat(3,1fr);
-          color: #fff;
-          .grid1{
-            border: #fff solid;  
-            padding:4%;
-            align-items: center;
+          width:100%;
+          height: 960px;
+          .main-text{
+            text-align: center;
+       
+           h1{
+            font-size:60px;
+           }
           }
-          .grid2{
-            border: #fff solid;
-            padding:4%;  
-            align-items: center;
-          }
-          .grid3{
-            border: #fff solid;
-            padding:4%;  
-            align-items: center;
-          }
-          .grid4{
-            border: #fff solid;
-            padding:4%;  
-            align-items: center;
-          }
-          .grid5{ 
-            border: #fff solid;
-            padding:4%;  
-            grid-column:1/3;
-            align-items: center;
+          .grid{
+            display: grid;
+            grid-template-columns:repeat(2,250px);
+            grid-template-rows:repeat(3,1fr);
+            color: #fff;
+          /* padding-left: 100px;
+           padding-top: 100px;*/
+          
+            h5{
+              color: #FFB548;
+            }
+            .grid1{
+              border: #fff solid;  
+              padding:4%;
+              align-items: center;
+            }
+            .grid2{
+              border: #fff solid;
+              padding:4%;  
+              align-items: center;
+            }
+            .grid3{
+              border: #fff solid;
+              padding:4%;  
+              align-items: center;
+            }
+            .grid4{
+              border: #fff solid;
+              padding:4%;  
+              align-items: center;
+            }
+            .grid5{ 
+              border: #fff solid;
+              padding:4%;  
+              grid-column:1/3;
+              align-items: center;
+            }
           }
         }
+
+   
+    
+      
+          
+
+
+
+
+
 
 
 

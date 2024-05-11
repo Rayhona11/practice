@@ -5,11 +5,11 @@
 }
 
 .container {
-  background-image: url("./background-game.png");
+  background-image: url("./images/background-game.png");
   height: 960px;
   -o-object-fit: cover;
      object-fit: cover;
-  /*? START HEADER */
+  /* ?  START HEADER  */
 }
 .container header {
   display: flex;
@@ -57,11 +57,14 @@
   font-family: "Open Sans", sans-serif;
   margin-top: 40px;
 }
+.hero-text .btn1 span {
+  border: #000 solid 10px;
+}
 
 /*?  END HERO  */
 /*  START SECTION */
 section {
-  background-image: url("./background_hero.png");
+  background-image: url("./images/background_hero.png");
   align-items: center;
   font-family: "Open Sans", sans-serif;
   display: flex;
@@ -83,7 +86,7 @@ section .section-left p {
 /*?  END  SECTION  */
 /* START  MAIN */
 .main {
-  background-image: url("./Group 2.jpg");
+  background-image: url("./images/Group 2.jpg");
   color: #fff;
   font-family: "Bebas Neue", sans-serif;
   -o-object-fit: cover;
@@ -136,5 +139,4 @@ section .section-left p {
   color: #FFB548;
 }
 
-/* END MAIN */
-/* START SERVICES *//*# sourceMappingURL=style.css.map */
+/* END MAIN *//*# sourceMappingURL=style.css.map */

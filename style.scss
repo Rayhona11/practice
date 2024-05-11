@@ -5,11 +5,11 @@
 }
 
 .container{
-    background-image: url("./background-game.png");
+    background-image: url("./images/background-game.png");
     height:960px;
     object-fit: cover;
 
-   /*? START HEADER */
+   /* ?  START HEADER  */
 
     header{
       display: flex;
@@ -66,6 +66,9 @@
   border-radius:7px;
   font-family: 'Open Sans', sans-serif;
   margin-top:40px;
+  span{
+    border: #000 solid 10px;
+  }
   }
  
 }
@@ -76,7 +79,7 @@
        /*  START SECTION */
   
           section{
-           background-image:url("./background_hero.png");
+           background-image:url("./images/background_hero.png");
            align-items: center;
            font-family: 'Open Sans', sans-serif;
            display: flex;
@@ -103,7 +106,7 @@
        /* START  MAIN */
 
         .main{
-          background-image:url("./Group\ 2.jpg");
+          background-image:url("./images/Group\ 2.jpg");
           color: #fff;
           font-family: 'Bebas Neue', sans-serif;
           object-fit: cover;
@@ -159,7 +162,7 @@
 
         /* END MAIN */
 
-        /* START SERVICES */
+    
 
 
    

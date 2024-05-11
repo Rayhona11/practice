@@ -10,21 +10,22 @@
     object-fit: cover;
 
    /* ?  START HEADER  */
-
     header{
       display: flex;
       align-items: center;
       padding:15px 5%;  
-    /*  gap: 100px;*/
-     justify-content: space-between; 
-
+      justify-content: space-between; 
+      
       ul{
          list-style: none;
          color: #fff;
          display: flex;
          gap:50px;
          font-family: 'Open Sans', sans-serif;
-      }
+         a{
+          color: #fff;
+         }
+        }
 
       i{
         font-size:40px;
